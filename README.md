@@ -4,20 +4,21 @@ A require-bundler plugin for [gulp](https://github.com/wearefractal/gulp)
 
 ## Usage
 
-First, install `gulp-requirejs-bundler` as a development dependency:
+First, install `gulp-requirejs-bundler-with-baseurl` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-requirejs-bundler
+npm install --save-dev gulp-requirejs-bundler-with-baseurl
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var require-bundler = require("gulp-requirejs-bundler");
+var require-bundler = require("gulp-requirejs-bundler-with-baseurl");
 
 gulp.src("./src/*.ext")
 	.pipe(require-bundler({
-		msg: "Hello Gulp!"
+		msg: "Hello Gulp!",
+		bundleUrl: "/scripts"
 	}))
 	.pipe(gulp.dest("./dist"));
 ```

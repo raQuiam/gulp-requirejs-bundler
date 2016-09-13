@@ -1,16 +1,16 @@
 {
-  "name": "gulp-requirejs-bundler",
-  "version": "0.1.1",
-  "description": "Gulp plugin: wraps gulp-requirejs, adds ability to emit bundle files and bundle config",
+  "name": "gulp-requirejs-bundler-with-baseurl",
+  "version": "0.0.1",
+  "description": "Similar to gulp-requirejs-bundler, with option to specify baseUrl",
   "keywords": [
     "gulpplugin"
   ],
   "author": {
-    "name": "Steven Sanderson",
+    "name": "Vashira Ravipanich",
     "email": "",
-    "url": "https://github.com/SteveSanderson"
+    "url": "https://github.com/raQuiam"
   },
-  "repository": "SteveSanderson/gulp-requirejs-bundler",
+  "repository": "raQuiam/gulp-requirejs-bundler",
   "engines": {
     "node": ">=0.8.0",
     "npm": ">=1.2.10"
